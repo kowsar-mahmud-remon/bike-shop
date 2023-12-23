@@ -40,7 +40,7 @@ const NestedPage = () => {
         <div className=" bg-slate-200 p-4 rounded-lg hover:shadow-2xl">
           <div className="">
             <Image
-              className="w-full h-60"
+              className="w-full h-72"
               src={bikeData?.imgUrl}
               width={500}
               height={500}
