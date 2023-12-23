@@ -54,23 +54,19 @@ const NestedPage = () => {
               <span className=" font-normal"> {bikeData?.title}</span>
             </h2>
             <h2 className="text-lg font-semibold mt-2">
-              Bike Color:
-              {bikeData?.variations?.color?.map((color: any, i: any) => (
-                <span key={i} className=" font-normal">
-                  {" "}
-                  {color}
-                </span>
-              ))}
+              Bike Color:{" "}
+              <span className=" font-normal">
+                {" "}
+                {bikeData?.variations?.color}
+              </span>
             </h2>
 
             <h2 className="text-lg font-semibold mt-2">
               Bike Size:
-              {bikeData?.variations?.size?.map((size: any, i: any) => (
-                <span key={i} className=" font-normal">
-                  {" "}
-                  {size}
-                </span>
-              ))}
+              <span className=" font-normal">
+                {" "}
+                {bikeData?.variations?.size}
+              </span>
             </h2>
           </div>
         </div>
