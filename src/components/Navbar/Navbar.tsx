@@ -78,7 +78,7 @@ const Navbar = () => {
               height={500}
               alt="Picture of the logo"
             />{" "}
-            <h2 className="text-2xl font-semibold text-white">Bike Rider</h2>
+            <h2 className="text-2xl font-semibold text-white">Bike Shop</h2>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex text-white">
