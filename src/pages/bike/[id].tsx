@@ -28,7 +28,11 @@ const NestedPage = () => {
   const bikeData = data?.data;
 
   if (isLoading) {
-    return <h2>Loading...</h2>;
+    return (
+      <div className="flex justify-center my-20 text-success">
+        <span className="loading loading-spinner loading-lg"></span>
+      </div>
+    );
   }
 
   return (
