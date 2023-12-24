@@ -5,6 +5,6 @@ export const api = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "https://bike-shop-server.vercel.app/api/v1",
   }),
-  tagTypes: ["user", "bike"],
+  tagTypes: ["user", "bike", "checkout"],
   endpoints: () => ({}),
 });
