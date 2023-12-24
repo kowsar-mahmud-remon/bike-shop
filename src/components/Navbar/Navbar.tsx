@@ -29,9 +29,9 @@ const Navbar = () => {
       <li className="">
         <Link href="/bike">Products</Link>
       </li>
-      {/* <li className="">
+      <li className="">
         <Link href="/checkout">Checkout</Link>
-      </li> */}
+      </li>
     </React.Fragment>
   );
 
